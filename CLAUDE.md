@@ -29,12 +29,13 @@ just update                      # re-download justfile from GitHub
 - **Docker is handled separately per platform**: on Linux it uses the official `get.docker.com` script (installs full Docker Engine + daemon); on macOS it installs Docker Desktop via `brew --cask`.
 - **nvm uses the official curl installer**, not `brew install nvm`, because the Homebrew formula requires additional manual PATH wiring that the curl script handles automatically.
 - **Optional k8s tools** are gated by `optional=true` parameter, not a separate recipe, so `setup-all optional=true` naturally composes.
-- `GITHUB_USER`, `GITHUB_REPO`, and `GITHUB_BRANCH` are defined at the top of both files — update these when the repo is renamed or transferred.
+- `GITHUB_USER`, `GITHUB_REPO`, and `GITHUB_BRANCH` are defined at the top of both files — update these when the repo is renamed or transferred. Current value: `yxasika`.
 
 ## GitHub artifact URL
 
 The bootstrap script is meant to be run via:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sgoetz/sys-setup/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yxasika/sys-setup/main/setup.sh | bash
 # or with a custom install dir:
-curl -fsSL https://raw.githubusercontent.com/sgoetz/sys-setup/main/setup.sh | bash -s ~/.dotfiles
+curl -fsSL https://raw.githubusercontent.com/yxasika/sys-setup/main/setup.sh | bash -s ~/.dotfiles
+```

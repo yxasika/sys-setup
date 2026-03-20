@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ─── Configuration ────────────────────────────────────────────────────────────
-GITHUB_USER="sgoetz"
+GITHUB_USER="yxasika"
 GITHUB_REPO="sys-setup"
 GITHUB_BRANCH="main"
 REPO_RAW="https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}"
