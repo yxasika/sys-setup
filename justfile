@@ -2,7 +2,7 @@
 #
 # Usage:
 #   just                      Show this list
-#   just setup-base           btop, zoxide, fzf
+#   just setup-base           btop, zoxide, fzf, jq
 #   just setup-dev            Go, Bun, nvm + Node LTS
 #   just setup-k8s            Docker, kubectl, k3d, helm, tilt
 #   just setup-k8s optional=true   Also install kubectx, k9s, stern, dive
@@ -28,7 +28,7 @@ setup-base:
     echo ""
     echo "==> Installing base tools..."
 
-    brew install btop zoxide fzf
+    brew install btop zoxide fzf jq
 
     echo ""
     echo "✓ Base tools installed."

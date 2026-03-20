@@ -27,15 +27,15 @@ just              # list all recipes
 
 ### Recipes
 
-| Command | Installs |
-|---|---|
-| `just setup-base` | btop, zoxide, fzf |
-| `just setup-dev` | Go, Bun, nvm + Node LTS |
-| `just setup-k8s` | Docker, kubectl, k3d, helm, tilt |
-| `just setup-k8s optional=true` | + kubectx, k9s, stern, dive |
-| `just setup-all` | Everything above |
-| `just setup-all optional=true` | Everything + optional k8s tools |
-| `just update` | Re-download justfile from GitHub |
+| Command                        | Installs                         |
+|--------------------------------|----------------------------------|
+| `just setup-base`              | btop, zoxide, fzf, jq            |
+| `just setup-dev`               | Go, Bun, nvm + Node LTS          |
+| `just setup-k8s`               | Docker, kubectl, k3d, helm, tilt |
+| `just setup-k8s optional=true` | + kubectx, k9s, stern, dive      |
+| `just setup-all`               | Everything above                 |
+| `just setup-all optional=true` | Everything + optional k8s tools  |
+| `just update`                  | Re-download justfile from GitHub |
 
 ### Examples
 
