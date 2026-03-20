@@ -10,7 +10,7 @@
 #   just setup-all optional=true   Run all, including optional k8s tools
 #   just update               Re-download this justfile from GitHub
 
-GITHUB_USER := "sgoetz"
+GITHUB_USER := "yxasika"
 GITHUB_REPO := "sys-setup"
 GITHUB_BRANCH := "main"
 REPO_RAW := "https://raw.githubusercontent.com/" + GITHUB_USER + "/" + GITHUB_REPO + "/" + GITHUB_BRANCH
